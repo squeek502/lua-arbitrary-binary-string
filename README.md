@@ -1,6 +1,6 @@
 # lua-arbitrary-binary-string
 
-A Lua library to convert arbitrary binary data into a Lua string literal with various levels of printability.
+A Lua library/tool to convert arbitrary binary data into a Lua string literal with various levels of printability.
 
 ## As A Command Line Tool
 
