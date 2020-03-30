@@ -12,3 +12,18 @@ jobs:
       uses: docker://mileschou/lua:5.1
       with:
         args: lua test/test.lua
+
+    - name: Lua 5.2
+      uses: docker://mileschou/lua:5.2
+      with:
+        args: lua test/test.lua
+
+    - name: Lua 5.3
+      uses: docker://mileschou/lua:5.3
+      with:
+        args: lua test/test.lua
+
+    - name: LuaJIT
+      uses: docker://mileschou/lua:jit-2.1
+      with:
+        args: lua test/test.lua
