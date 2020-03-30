@@ -26,4 +26,4 @@ jobs:
     - name: LuaJIT
       uses: docker://mileschou/lua:jit-2.1
       with:
-        args: lua test/test.lua
+        args: luajit test/test.lua
