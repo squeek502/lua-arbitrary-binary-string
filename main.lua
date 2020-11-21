@@ -50,7 +50,7 @@ end
 local chunk = abs.getchunk(abs.encode(data, escape_pattern))
 
 -- sanity check
-assert(abs.loadchunk(chunk) == data, "decoded output didn't match input, this is a but in the arbitrary-binary-string library")
+assert(abs.loadchunk(chunk) == data, "decoded output didn't match input, this is a bug in the arbitrary-binary-string library")
 
 local outfile = outpath and assert(io.open(outpath, 'wb')) or io.stdout
 outfile:write(chunk)
